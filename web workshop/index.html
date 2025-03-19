@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+                body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #000000, #6a0dad);
+            color: rgb(216, 220, 203);
+            text-align: center;
+        }
+        .section {
+            padding: 3rem 2rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+      
+        
+        .footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: linear-gradient(to right, #000000, #3a3a3a);
+            font-size: 1rem;
+            color: white;
+        }
+        
+        h2 {
+            color: #ffcc00;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.8);
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+       
+        h2 {
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+       
+     
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 1rem 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            height: 4%;
+            width: 100%;
+            z-index: 100;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+        .navbar div a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .navbar div a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+        .profile {
+            margin-left: 50%;
+            height: 40px;
+            border-radius: 50%;
+        
+            cursor: pointer;
+            border: 2px solid #ffcc00;
+        }
+        .section {
+            padding: 3rem 2rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h2 {
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #5b4273;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Portfolio</h1>
+        <div>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.oNJuNmKL2ZIVUhd-_0GQIQHaHa&pid=Api&P=0&h=180" alt="Profile" class="profile">
+        </div>
+    </nav>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am <strong>MADHUMITHAA R M</strong>, a passionate web developer who loves crafting creative and interactive digital experiences. With a strong foundation in HTML, CSS, JavaScript, and UI/UX design, I strive to build visually appealing and user-friendly websites.</p>
+    </section>
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p>St. Theresa Girls Higher Secondary School | 12th Grade | 84%</p>
+        <p>Sri Sairam Engineering College | M.Tech in Computer Science & Engineering | CGPA: 8.33 | 2023 - 2027</p>
+        <p>Certified in Frontend Development and UI/UX Design</p>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React.js</span>
+            <span class="skill">UI/UX Design</span>
+            <span class="skill">Python</span>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Details</h2>
+        <p>📞 Phone: +91 98765 43210</p>
+        <p>✉️ Email: example@email.com</p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" style="color: #ffcc00; text-decoration: none;">linkedin.com/in/yourprofile</a></p>
+    </section>
+    
+    
+    <footer class="section">
+        &copy; 2025 My Portfolio | Designed with ❤️
+    </footer>
+    
+    
+    
+</body>
+</html>
+
